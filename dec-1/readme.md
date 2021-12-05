@@ -1,4 +1,4 @@
---- Day 1: Sonar Sweep ---
+## --- Day 1: Sonar Sweep ---
 
 You're minding your own business on a ship at sea when the overboard alarm goes off! You rush to see if you can help. Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
 
@@ -12,6 +12,7 @@ As the submarine drops below the surface of the ocean, it automatically performs
 
 For example, suppose you had the following report:
 
+```
 199
 200
 208
@@ -22,6 +23,7 @@ For example, suppose you had the following report:
 269
 260
 263
+```
 
 This report indicates that, scanning outward from the submarine, the sonar sweep found depths of 199, 200, 208, 210, and so on.
 
@@ -29,6 +31,7 @@ The first order of business is to figure out how quickly the depth increases, ju
 
 To do this, count the number of times a depth measurement increases from the previous measurement. (There is no measurement before the first measurement.) In the example above, the changes are as follows:
 
+```
 199 (N/A - no previous measurement)
 200 (increased)
 208 (increased)
@@ -39,7 +42,8 @@ To do this, count the number of times a depth measurement increases from the pre
 269 (increased)
 260 (decreased)
 263 (increased)
+```
 
 In this example, there are 7 measurements that are larger than the previous measurement.
 
-How many measurements are larger than the previous measurement?
+***How many measurements are larger than the previous measurement?***
