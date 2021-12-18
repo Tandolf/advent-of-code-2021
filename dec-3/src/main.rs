@@ -1,5 +1,7 @@
-use std::fs::File;
-use std::io::{BufRead, BufReader, Lines};
+use std::{
+    fs::File,
+    io::{BufRead, BufReader, Lines},
+};
 
 fn main() {
     let _power_consumption = get_power_consumption("./src/input.txt");
